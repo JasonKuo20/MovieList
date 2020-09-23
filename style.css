@@ -1,0 +1,40 @@
+body {
+  background: #e9ebee;
+  font-family: "MicroSoft Jhenghei", sans-serif;
+}
+
+.container #data-panel .card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.container #data-panel .card-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+
+#icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#icons,
+.navbar-brand:hover {
+  cursor: pointer;
+}
+
+
+.fa-bars {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.fa:hover {
+  transform: scale(1.1, 1.1);
+  cursor: pointer;
+}
