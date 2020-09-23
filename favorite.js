@@ -28,7 +28,7 @@ function renderMovieList(data) {
               <div class="card-footer text-muted">
                 <button class="btn btn-primary btn-show-movie"
                   data-toggle="modal" data-target="#movie-modal" data-id="${item.id}">More</button>
-                <button class="btn btn-info btn-show-favorite" data-id="${item.id}">+</button>
+                <button class="btn btn-danger btn-remove-favorite" data-id="${item.id}">X</button>
               </div>
             </div>
           </div>
@@ -41,7 +41,7 @@ function renderMovieList(data) {
           </div>
           <div class="col-2">
             <button class="btn btn-primary btn-show-movie" data-toggle="modal" data-target="#movie-modal" data-id="${item.id}">More</button>
-            <button class="btn btn-info btn-show-favorite" data-id="${item.id}">+</button>
+            <button class="btn btn-info btn-show-favorite" data-id="${item.id}">x</button>
           </div>
         </div>
       </div>`
